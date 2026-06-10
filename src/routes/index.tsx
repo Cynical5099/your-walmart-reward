@@ -81,10 +81,17 @@ function Index() {
         </ol>
 
         <Button
+          asChild
           size="lg"
           className="h-14 w-full rounded-full bg-accent text-lg font-bold text-accent-foreground shadow-lg shadow-accent/30 transition-transform active:scale-[0.98] hover:bg-accent/90"
         >
-          Get Started
+          <a
+            href="https://trksy.org/aff_c?offer_id=1157&aff_id=21664"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Get Started
+          </a>
         </Button>
 
         <p className="mt-4 text-xs text-muted-foreground">
