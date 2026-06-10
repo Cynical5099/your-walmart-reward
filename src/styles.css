@@ -2,6 +2,9 @@
 @source "../src";
 @import "tw-animate-css";
 
+/* Walmart brand font */
+@import url('https://fonts.googleapis.com/css2?family=Bogle:wght@400;700&display=swap');
+
 @custom-variant dark (&:is(.dark *));
 
 /*
